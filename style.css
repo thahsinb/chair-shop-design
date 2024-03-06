@@ -16,7 +16,8 @@ FONT SIZE SYSTEM (px)
 /* GENERAL STYLES */
 /* ------------------------ */
 body {
-  font-family: sans-serif;
+  font-family: "Inter", sans-serif;
+  color: #212529;
 }
 
 .container {
@@ -88,6 +89,9 @@ img {
 
 /* TESTIMONIAL */
 .testimonial-section {
+  background-color: #087f5b;
+  padding: 18px 32px;
+  color: #fff;
 }
 
 .testimonial-box {
@@ -150,8 +154,24 @@ h3 {
 footer {
   margin-bottom: 48px;
   font-size: 16px;
+  color: #495057;
 }
 
 .btn {
-  font-size: 24px;
+  background-color: #087f5b;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.btn--big {
+  font-size: 20px;
+  padding: 16px 32px;
+}
+
+.btn--small {
+  font-size: 14px;
+  padding: 10px 14px;
 }
