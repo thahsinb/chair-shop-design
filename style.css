@@ -74,8 +74,6 @@ img {
 }
 
 /* FEATURES */
-.features-icon {
-}
 
 .features-title {
   margin-bottom: 16px;
@@ -87,10 +85,18 @@ img {
   line-height: 1.6;
 }
 
+.features-icon {
+  color: #087f5b;
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin-bottom: 16px;
+}
+
 /* TESTIMONIAL */
 .testimonial-section {
   background-color: #087f5b;
-  padding: 18px 32px;
+  padding: 32px;
   color: #fff;
 }
 
@@ -116,6 +122,10 @@ img {
 }
 
 /* CHAIRS */
+.chair {
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.324);
+}
+
 .chair-box {
   padding: 24px;
 }
@@ -143,6 +153,11 @@ h3 {
 }
 
 .chair-icon {
+  stroke: #087f5b;
+  width: 28px;
+  height: 28px;
+  /* display: block; */
+  /* margin-bottom: 16px; */
 }
 
 .chair-price {
